@@ -100,13 +100,13 @@ http://localhost/secure-php-mailer
 
 Configuração SMTP para Gmail
 
-1. Ative a verificação em duas etapas
+1. Ative a verificação em duas etapas<br>
    · Acesse https://myaccount.google.com/security
-   · Ative "Verificação em duas etapas"
-2. Gere uma Senha de App
-   · Acesse https://myaccount.google.com/apppasswords
-   · Selecione "Email" e gere uma senha
-   · Use a senha de 16 caracteres no código
+   · Ative "Verificação em duas etapas"<br>
+2. Gere uma Senha de App<br>
+   · Acesse https://myaccount.google.com/apppasswords<br>
+   · Selecione "Email" e gere uma senha<br>
+   · Use a senha de 16 caracteres no código<br>
 3. Configuração no código
 
 ```php
