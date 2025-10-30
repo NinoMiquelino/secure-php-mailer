@@ -151,9 +151,9 @@ secure-php-mailer/
 
 Configurações de Segurança Implementadas
 
-· Rate Limiting: 10 requisições por minuto por IP
-· Validação de Arquivos: Tipos e tamanhos limitados
-· Sanitização: Todos os inputs são validados e sanitizados
+· Rate Limiting: 10 requisições por minuto por IP<br>
+· Validação de Arquivos: Tipos e tamanhos limitados<br>
+· Sanitização: Todos os inputs são validados e sanitizados<br>
 · Headers de Segurança: Proteção XSS, Clickjacking, etc.
 
 🎯 Uso do Sistema
@@ -193,26 +193,26 @@ Erros Comuns e Soluções
 
 "SMTP Error: Could not connect to SMTP host"
 
-· Verifique as credenciais SMTP
-· Confirme a porta e encryption
-· Gere App Password para Gmail
+· Verifique as credenciais SMTP<br>
+· Confirme a porta e encryption<br>
+· Gere App Password para Gmail<br>
 · Verifique firewall do servidor
 
 "Unexpected end of JSON input"
 
-· PHP está retornando erro antes do JSON
-· Verifique syntax errors no código
+· PHP está retornando erro antes do JSON<br>
+· Verifique syntax errors no código<br>
 · Confirme que PHPMailer está instalado
 
 Email não chega no destinatário
 
-· Verifique pasta de spam
+· Verifique pasta de spam<br>
 · Confirme limites do provedor SMTP
 
 Anexo não é enviado
 
-· Tamanho máximo: 5MB
-· Tipos permitidos: PDF, DOC, DOCX, JPG, PNG, TXT
+· Tamanho máximo: 5MB<br>
+· Tipos permitidos: PDF, DOC, DOCX, JPG, PNG, TXT<br>
 · Verifique permissões de upload
 
 Modo Debug
@@ -230,26 +230,26 @@ Rate Limiting
 
 O sistema impede spam através de limite de requisições:
 
-· 10 requisições por minuto por IP
-· Dados armazenados em cache temporário
+· 10 requisições por minuto por IP<br>
+· Dados armazenados em cache temporário<br>
 · Proteção contra ataques de força bruta
 
 Validação de Entrada
 
-· Emails: Validação com filter_var()
-· Arquivos: Verificação de tipo e tamanho
-· Texto: Sanitização contra XSS
+· Emails: Validação com filter_var()<br>
+· Arquivos: Verificação de tipo e tamanho<br>
+· Texto: Sanitização contra XSS<br>
 · CSRF Protection: Headers de segurança
 
 Padrões de Código
 
-· Siga PSR-12 para PHP
+· Siga PSR-12 para PHP<br>
 · Use ESLint para JavaScript
 
 🛡️ Privacidade e Segurança
 
-· Não armazenamos emails ou conteúdos enviados
-· Credenciais SMTP são protegidas por variáveis de ambiente
+· Não armazenamos emails ou conteúdos enviados<br>
+· Credenciais SMTP são protegidas por variáveis de ambiente<br>
 · Comunicação com servidor SMTP usa encryption
 
 ---
